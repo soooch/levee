@@ -11,7 +11,7 @@ font: *fcft.Font,
 clockFormat: [*:0]const u8,
 
 pub fn init() !Config {
-    var font_names = [_][*:0]const u8{"monospace:size=14"};
+    var font_names = [_][*:0]const u8{"JetBrains Mono:size=14"};
 
     return Config{
         .height = 32,
